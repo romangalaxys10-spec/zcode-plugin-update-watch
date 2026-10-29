@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 - 2026-10-30
+
+- Fix: NoneType guard in the text report path when a repo has no commit info.
+
 ## 0.1.0 - 2026-10-29
 
 - Initial release: AUDIT via `update_check.py` (per-repo commit vs origin,

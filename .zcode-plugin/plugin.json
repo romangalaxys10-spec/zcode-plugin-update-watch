@@ -1,6 +1,6 @@
 {
   "name": "plugin-update-watch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Safe updater for ZCode plugins and skills installed from git or local sources. Audits every installed source (workspace plugin dirs, installed cache), fetches upstream, and shows the commit and version delta before touching anything. Upgrades re-download or git pull into the source dir under a backup tag created first; manifest validation runs after each upgrade and a failed check triggers a rollback to the pre-upgrade ref. git reset is never used. Never pushes and never force-pulls.",
   "author": { "name": "Roman's zcode agent" },
   "skills": "./skills",

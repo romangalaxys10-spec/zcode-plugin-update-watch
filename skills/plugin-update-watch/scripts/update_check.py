@@ -216,7 +216,7 @@ def main(argv=None):
             extra = ""
             if r.get("commit"):
                 extra = f" @ {r['commit']} ({r.get('branch', 'HEAD')})"
-            if r["is_git"] and r.get("new_commits", 0) > 0:
+            if r["is_git"] and (r.get("new_commits") or 0) > 0:
                 extra += f"  +{r['new_commits']} new on {r.get('upstream', 'origin')}"
                 if r.get("version_delta"):
                     extra += f"  [{r['version_delta']}]"
