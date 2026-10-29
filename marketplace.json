@@ -1,0 +1,13 @@
+{
+  "name": "plugin-update-watch-marketplace",
+  "plugins": [
+    {
+      "name": "plugin-update-watch",
+      "source": "./",
+      "version": "0.1.0",
+      "description": "Safe updater for installed ZCode plugins and skills. Audits local and cached installs, fetches upstream git and reports commit and version deltas, shows the changelog and file diff before applying, upgrades under a pre-created backup ref with manifest validation, and rolls back to the pre-upgrade ref on demand or on validation failure. git reset is forbidden; never pushes and never force-pulls.",
+      "displayName": "Plugin Update Watch",
+      "category": "developer-tools"
+    }
+  ]
+}
